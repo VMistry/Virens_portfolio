@@ -58,7 +58,7 @@ p{
   background-color: rgba(50, 50, 50, .7);
 }
 
-/* Portfolio */
+/* About me */
 .portStart{
   /* Get the image */
   background-color: black;
@@ -68,7 +68,7 @@ p{
 }
 
 .name{
-  font-size:80px;
+  font-size:100%;
   color:red;
 }
 
@@ -98,6 +98,22 @@ p{
   border:solid 2px lightgrey;
   margin-left: 20px;
 
+}
+/* Porfolio */
+.portDisplay{
+  /* Get the image */
+  background-color: rgba(50, 50, 50, .7);
+  /* Full height */
+  height: 200px;
+  border-radius: 30px;
+  border:solid 2px lightgrey;
+  margin:30px 1% 0px;
+
+}
+
+.littleHeader{
+  height: 75px;
+  margin-left: 9%;
 }
 /* Contact */
 .portEnd{
