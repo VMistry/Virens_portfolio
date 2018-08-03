@@ -1,3 +1,4 @@
+/*------------- Tags -------------  */
 i{
   font-size:29px;
   padding: 0 0 0 10px;
@@ -8,6 +9,14 @@ p{
   margin:5px 0px 5px;
 }
 
+h1{
+  margin: 30px 0px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+/*-------------  classes -------------  */
+/* navigation */
 .navigation{
   padding: 10px 0 10px;
   background-color: black;
@@ -20,4 +29,41 @@ p{
   width: 40px;
   height: 30px;
   margin-right: 10px;
+}
+
+/* start section */
+.start{
+  /* Get the image */
+  background-image: url("Images/background_image.jpg");
+  background-color: black;
+  /* Full height */
+  height: 600px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top{
+  /* Full height */
+  height: 200px;
+}
+
+.startSection{
+  /* Full height */
+  height: 200px;
+  border-radius: 30px;
+  background-color: rgba(50, 50, 50, .7);
+}
+
+/* Portfolio */
+.portStart{
+  /* Get the image */
+  background-color: black;
+  /* Full height */
+  height: 600px;
+}
+
+.name{
+  font-size:80px;
+  color:red;
 }
