@@ -7,14 +7,9 @@ i{
 p{
   text-align:center;
   margin:5px 0px 5px;
+  font-family: 'Anton', sans-serif;
 }
 
-h1{
-  margin: 30px 0px;
-  text-align: center;
-  font-size: 40px;
-  color: white;
-}
 /*-------------  classes -------------  */
 /* navigation */
 .navigation{
@@ -43,6 +38,14 @@ h1{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.start p{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin-top: 50px;
+}
+
 .top{
   /* Full height */
   height: 200px;
@@ -61,9 +64,46 @@ h1{
   background-color: black;
   /* Full height */
   height: 600px;
+  border-top:solid 5px lightgrey;
 }
 
 .name{
   font-size:80px;
   color:red;
+}
+
+.profileImg{
+  /* Get the image */
+  margin-top: 50px;
+  background-image: url("Images/background_image.jpg");
+  background-color: black;
+  /* Full height */
+  height: 500px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  border:solid 2px lightgrey;
+
+}
+
+.profileInfo{
+  /* Get the image */
+  margin-top: 50px;
+  background-color: rgba(50, 50, 50, .7);
+  /* Full height */
+  height: 500px;
+  border-radius: 30px;
+  border:solid 2px lightgrey;
+  margin-left: 20px;
+
+}
+/* Contact */
+.portEnd{
+  /* Get the image */
+  background-color: black;
+  /* Full height */
+  height: 100px;
+  border-top:solid 5px lightgrey;
 }
