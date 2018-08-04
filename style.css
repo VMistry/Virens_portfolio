@@ -11,21 +11,32 @@ p{
   font-family: 'Anton', sans-serif;
 }
 
-/*-------------  classes -------------  */
-/* navigation */
-.navigation{
-  padding: 10px 0 10px;
-  background-color: black;
-  color: white;
-  border:solid 1px grey;
+h2{
+  color:white;
+  text-align: center;
+  font-size:400%;
+  margin-top:0px;
+  font-family: 'Do Hyeon', sans-serif;
 }
 
-.navigation button{
-  float: right;
-  width: 40px;
-  height: 30px;
-  margin-right: 10px;
+h1{
+  color:white;
+  text-align: center;
+  font-size:300%;
+  margin-top:10%;
+  font-family: 'Do Hyeon', sans-serif;
 }
+/*-------------  classes -------------  */
+/* navigation */
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
 
 /* start section */
 .start{
@@ -35,6 +46,7 @@ p{
   /* Full height */
   height: 600px;
   /* Center and scale the image nicely */
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,9 +54,9 @@ p{
 
 .start p{
   text-align: center;
-  font-size: 40px;
+  font-size: 300%;
   color: white;
-  margin-top: 50px;
+  margin-top: 11%;
 }
 
 .top{
@@ -59,13 +71,17 @@ p{
   background-color: rgba(50, 50, 50, .7);
 }
 
+
 /* About me */
 .portStart{
   /* Get the image */
-  background-color: black;
+  background-image: url("Images/Blackwood.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* Full height */
+  background-attachment: fixed;
   height: 600px;
-  border-top:solid 5px lightgrey;
 }
 
 .name{
@@ -85,7 +101,7 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 30px;
-  border:solid 2px lightgrey;
+  position:relative;
 
 }
 
@@ -97,10 +113,19 @@ p{
   height: 500px;
   border-radius: 30px;
   border:solid 2px lightgrey;
-  margin-left: 20px;
+  margin-left: 1%;
 
 }
 /* Porfolio */
+.portStart2{
+  /* Get the image */
+  background-color: grey;
+  background-position: center;
+  /* Full height */
+  background-attachment: fixed;
+  height: 600px;
+}
+
 .portDisplay{
   /* Get the image */
   background-color: rgba(50, 50, 50, .7);
@@ -121,6 +146,6 @@ p{
   /* Get the image */
   background-color: black;
   /* Full height */
-  height: 100px;
+  height: 175px;
   border-top:solid 5px lightgrey;
 }
