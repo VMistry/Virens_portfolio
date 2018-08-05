@@ -1,223 +1,396 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Viren Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <head>
+    <title>Viren Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Anton|Do+Hyeon" rel="stylesheet">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Do+Hyeon" rel="stylesheet">
 
-</head>
-<body>
-  <!-- Navigation Header -->
-  <header class="container-fluid" style="padding-left:0px; padding-right:0px; border-radius:0px;">
-
-    <nav class="navbar-fluid navbar-inverse" data-spy="affix" data-offset-top="197">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#"><i class="fas fa-address-card"></i></a>
-        </div>
-        <ul class="nav navbar-nav" style="float:left;">
-          <li class="hidden-xs hidden-sm"><a href="#">Home</a></li>
-          <li class="hidden-xs hidden-sm"><a href="#">About me</a></li>
-          <li class="hidden-xs hidden-sm"><a href="#">Profile</a></li>
-          <li class="hidden-xs hidden-sm"><a href="#">Technical skills</a></li>
-          <li class="dropdown" style="width:200px;">
-            <a class="dropdown-toggle dropdown hidden-md hidden-lg" data-toggle="dropdown" href="#">
-              <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a href="#" >Home</a></li>
-              <li><a href="#" >About me</a></li>
-              <li><a href="#" >Profile</a></li>
-              <li><a href="#" >Techniqual skills</a></li>
-            </ul>
-          </li>
+  </head>
+  <body>
+    <!-- Navigation Header -->
+    <header class="container-fluid" style="padding-left:0px; padding-right:0px; border-radius:0px;">
+      <nav class="navbar-fluid navbar-inverse" data-spy="affix" data-offset-top="197">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#"><i class="fas fa-address-card"></i></a>
+          </div>
+          <ul class="nav navbar-nav" style="float:left;">
+            <li class="hidden-xs hidden-sm"><a href="#">Home</a></li>
+            <li class="hidden-xs hidden-sm"><a href="#">About me</a></li>
+            <li class="hidden-xs hidden-sm"><a href="#">Profile</a></li>
+            <li class="hidden-xs hidden-sm"><a href="#">Technical skills</a></li>
+            <li class="dropdown" style="width:200px;">
+              <a class="dropdown-toggle dropdown hidden-md hidden-lg" data-toggle="dropdown" href="#">
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#" >Home</a></li>
+                <li><a href="#" >About me</a></li>
+                <li><a href="#" >Profile</a></li>
+                <li><a href="#" >Techniqual skills</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </nav>
-  </header>
-  <!-- Introduction Body -->
-  <main class="container-fluid">
-    <section class="row">
-      <div class="start col-xs-12">
-        <div class="row">
-          <div class="top col-md-12">
-          </div>
+    </header>
+    <!-- Introduction Body -->
+    <main class="container-fluid">
+      <section class="row">
+        <div class="start col-xs-12">
           <div class="row">
-            <div class="startSection col-xs-6 col-xs-offset-3">
-              <h1><span class="name">VIREN'S</span> PORTFOLIO</h1>
+            <div class="top col-md-12">
+            </div>
+            <div class="row">
+              <div class="startSection col-xs-6 col-xs-offset-3">
+                <h1><span class="name">VIREN'S</span> PORTFOLIO</h1>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- About me body -->
-    <section class="row">
-      <div class="portStart col-xs-12">
-        <div class="profileImg col-md-3 col-md-offset-1 hidden-sm hidden-xs">
+      </section>
+      <!-- About me body -->
+      <section class="row">
+        <div class="portStart col-xs-12">
+          <div class="profileImg col-md-3 col-md-offset-1 hidden-sm hidden-xs">
+          </div>
+          <article class="profileInfo col-md-7" >
+            <h2>About Me</h2>
+          </article>
         </div>
-        <article class="profileInfo col-md-7" >
-          <h2>About Me</h2>
-        </article>
-      </div>
-    </div>
-  </section>
-  <!-- Portfolio -->
-  <section class="row">
-    <div class="portStart2 col-xs-12">
-      <div class="row">
-        <div class="littleHeader col-xs-10 col-xs-offset-1">
-          <h2>Portfolio</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="portDisplay col-xs-3" style="margin-left:11%;">
+      </section>
+      <!-- Portfolio -->
+      <section class="row">
+        <div class="portStart2 col-xs-12">
           <div class="row">
-            <p class="col-xs-12" style="height:40px; background-color:grey; color:white; border-top-left-radius:30px; border-top-right-radius:30px; margin: 0px; padding-top:10px;">
-              Flight Simulator
-            </p>
-            <div class="col-xs-12" style="height:115px; background-color:black; color:blue; margin: 0px; padding-top:10px;">
+            <div class="littleHeader col-xs-10 col-xs-offset-1">
+              <h2>Portfolio</h2>
+            </div>
+          </div>
+          <!-- Portfolio row 1 -->
+          <div class="row">
+            <!-- Portfolio section 1 -->
+            <div class="portDisplay col-xs-3" style="margin-left:11%;">
+              <div class="portSect row">
+                <p class="col-xs-12"> Flight Simulator </p>
+                <img class="col-xs-12" src="" alt="">
+                <div class="portSectPT col-xs-12">
+                  <!-- Trigger/Open The Modal -->
+                  <button id="myBtn">Expand</button>
 
-            </div>
-            <a class="col-xs-12" style="height:40px; background-color:grey; color:blue; border-bottom-left-radius:30px; border-bottom-right-radius:30px; margin: 0px; padding-top:10px; text-align: center;">
-              Expand
-            </a>
-          </div>
-        </div>
+                  <!-- The Modal -->
+                  <div id="myModal" class="modal">
 
-        </div>
-      </div>
-      <div class="row">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <h2>Flight Simulator</h2>
+                      <div>
+                        <img src="" alt="">
+                      </div>
+                      <div style="height: 150px; background-color: black;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio section 2 -->
+            <div class="portDisplay col-xs-3">
+              <div class="portSect row">
+                <p class="col-xs-12"> Flight Simulator </p>
+                <img class="col-xs-12" src="" alt="">
+                <div class="portSectPT col-xs-12">
+                  <!-- Trigger/Open The Modal -->
+                  <button id="myBtn">Expand</button>
 
-    </div>
-  </section>
-  <!-- Techical skills -->
-  <section class="row">
-    <div class="portStart3 col-xs-12">
-      <div class="row">
-        <div class="col-xs-10 col-xs-offset-1">
-          <h2 style="text-align:left; margin-top:20px;">Technical Skills</h2>
-        </div>
-      </div>
-        <!-- Languages -->
-        <div class="row">
-          <div class="skillLine col-xs-10 col-xs-offset-1">
-            <div class="row">
-              <div class="skillSection col-sx-12">
-                <h3>Languages</h3>
-              </div>
-            </div>
-            <div class="row">
-              <ul class="skillList col-sx-12">
-                <li>
-                  Java
-                </li>
-                <li>
-                  Java
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- Languages -->
-        <div class="row">
-          <div class="skillLine col-xs-10 col-xs-offset-1">
-            <div class="row">
-              <div class="skillSection col-sx-12">
-                <h3>Front End</h3>
-              </div>
-            </div>
-            <div class="row">
-              <ul class="skillList col-sx-12">
-                <li>
-                  Java
-                </li>
-                <li>
-                  Java
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- Languages -->
-        <div class="row">
-          <div class="skillLine col-xs-10 col-xs-offset-1">
-            <div class="row">
-              <div class="skillSection col-sx-12">
-                <h3>Back End</h3>
-              </div>
-            </div>
-            <div class="row">
-              <ul class="skillList col-sx-12">
-                <li>
-                  Java
-                </li>
-                <li>
-                  Java
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- Languages -->
-        <div class="row">
-          <div class="skillLine col-xs-10 col-xs-offset-1">
-            <div class="row">
-              <div class="skillSection col-sx-12">
-                <h3>Management, Deployment and Testing</h3>
-              </div>
-            </div>
-            <div class="row">
-              <ul class="skillList col-sx-12">
-                <li>
-                  Java
-                </li>
-                <li>
-                  Java
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- Languages -->
-        <div class="row">
-          <div class="skillLine col-xs-10 col-xs-offset-1">
-            <div class="row">
-              <div class="skillSection col-sx-12">
-                <h3>DataBases</h3>
-              </div>
-            </div>
-            <div class="row">
-              <ul class="skillList col-sx-12">
-                <li>
-                  Java
-                </li>
-                <li>
-                  Java
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+                  <!-- The Modal -->
+                  <div id="myModal" class="modal">
 
-    </div>
-  </section>
-  <!-- Contact -->
-  <section class="row">
-    <div class="portEnd col-xs-12">
-    </div>
-  </section>
-</main>
-</body>
-<script src="app.js"></script>
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <h2>Flight Simulator</h2>
+                      <div>
+                        <img src="" alt="">
+                      </div>
+                      <div style="height: 150px; background-color: black;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio section 3 -->
+            <div class="portDisplay col-xs-3">
+              <div class="portSect row">
+                <p class="col-xs-12"> Flight Simulator </p>
+                <img class="col-xs-12" src="" alt="">
+                <div class="portSectPT col-xs-12">
+                  <!-- Trigger/Open The Modal -->
+                  <button id="myBtn">Expand</button>
+
+                  <!-- The Modal -->
+                  <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <h2>Flight Simulator</h2>
+                      <div>
+                        <img src="" alt="">
+                      </div>
+                      <div style="height: 150px; background-color: black;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio row 1 -->
+          <div class="row">
+            <!-- Portfolio section 1 -->
+            <div class="portDisplay col-xs-3" style="margin-left:11%;">
+              <div class="portSect row">
+                <p class="col-xs-12"> Flight Simulator </p>
+                <img class="col-xs-12" src="" alt="">
+                <div class="portSectPT col-xs-12">
+                  <!-- Trigger/Open The Modal -->
+                  <button id="myBtn">Expand</button>
+
+                  <!-- The Modal -->
+                  <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <h2>Flight Simulator</h2>
+                      <div>
+                        <img src="" alt="">
+                      </div>
+                      <div style="height: 150px; background-color: black;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio section 2 -->
+            <div class="portDisplay col-xs-3">
+              <div class="portSect row">
+                <p class="col-xs-12"> Flight Simulator </p>
+                <img class="col-xs-12" src="" alt="">
+                <div class="portSectPT col-xs-12">
+                  <!-- Trigger/Open The Modal -->
+                  <button id="myBtn">Expand</button>
+
+                  <!-- The Modal -->
+                  <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <h2>Flight Simulator</h2>
+                      <div>
+                        <img src="" alt="">
+                      </div>
+                      <div style="height: 150px; background-color: black;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio section 3 -->
+            <div class="portDisplay col-xs-3">
+              <div class="portSect row">
+                <p class="col-xs-12"> Flight Simulator </p>
+                <img class="col-xs-12" src="" alt="">
+                <div class="portSectPT col-xs-12">
+                  <!-- Trigger/Open The Modal -->
+                  <button id="myBtn">Expand</button>
+
+                  <!-- The Modal -->
+                  <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <h2>Flight Simulator</h2>
+                      <div>
+                        <img src="" alt="">
+                      </div>
+                      <div style="height: 150px; background-color: black;">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Techical skills -->
+      <section class="row">
+        <div class="portStart3 col-xs-12">
+          <div class="row">
+            <div class="col-xs-10 col-xs-offset-1">
+              <h2 style="text-align:left; margin-top:20px;">Technical Skills</h2>
+            </div>
+          </div>
+            <!-- Languages -->
+            <div class="row">
+              <div class="skillLine col-xs-10 col-xs-offset-1">
+                <div class="row">
+                  <div class="skillSection col-sx-12">
+                    <h3>Languages</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <ul class="skillList col-sx-12">
+                    <li>
+                      Java
+                    </li>
+                    <li>
+                      Java
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Languages -->
+            <div class="row">
+              <div class="skillLine col-xs-10 col-xs-offset-1">
+                <div class="row">
+                  <div class="skillSection col-sx-12">
+                    <h3>Front End</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <ul class="skillList col-sx-12">
+                    <li>
+                      Java
+                    </li>
+                    <li>
+                      Java
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Languages -->
+            <div class="row">
+              <div class="skillLine col-xs-10 col-xs-offset-1">
+                <div class="row">
+                  <div class="skillSection col-sx-12">
+                    <h3>Back End</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <ul class="skillList col-sx-12">
+                    <li>
+                      Java
+                    </li>
+                    <li>
+                      Java
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Languages -->
+            <div class="row">
+              <div class="skillLine col-xs-10 col-xs-offset-1">
+                <div class="row">
+                  <div class="skillSection col-sx-12">
+                    <h3>Management, Deployment and Testing</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <ul class="skillList col-sx-12">
+                    <li>
+                      Java
+                    </li>
+                    <li>
+                      Java
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Languages -->
+            <div class="row">
+              <div class="skillLine col-xs-10 col-xs-offset-1">
+                <div class="row">
+                  <div class="skillSection col-sx-12">
+                    <h3>DataBases</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <ul class="skillList col-sx-12">
+                    <li>
+                      Java
+                    </li>
+                    <li>
+                      Java
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact -->
+      <section class="row">
+        <div class="portEnd col-xs-12">
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="app.js"></script>
+  <script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks the button, open the modal
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+  }
+  </script>
 </html>
