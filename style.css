@@ -115,6 +115,7 @@ h1{
   margin-left: 1%;
 
 }
+
 /* Porfolio */
 .portStart2{
   /* Get the image */
@@ -139,9 +140,17 @@ h1{
 }
 
 .littleHeader{
-  height: 75px;
-  margin-left: 9%;
+  background-color:rgba(50,50,50,.5);
+  margin-top:30px;
+  border-radius:10px;
 }
+
+.littleHeader h2{
+  style="text-align:left;
+  margin:5px 3% 0px;"
+}
+
+
 
 /* Tech skills */
 
@@ -178,6 +187,27 @@ h1{
 
 }
 
+.skillSection{
+  height:40px;
+  background-color:grey;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+}
+
+.skillSection h3{
+  margin:0px 0px 0px 10px;
+  color:white;
+  padding-top:5px;
+}
+
+.skillList li{
+  color:white;
+  background-color:grey;
+  display: inline-block;
+  padding:0px 1%;
+  margin:1.5% 0% 0px 1%;
+  border-radius:4px;
+}
 /* Contact */
 .portEnd{
   /* Get the image */
