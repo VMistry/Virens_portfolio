@@ -43,4 +43,4 @@ This project does not currently use JavaScript or JQuery except in the navbar.
 Below is an initial design of the finished portfolio
 
 ### Desktop version
-![Desktop](Images/STBoard.jpg)
+![Desktop](Images/StBoard.jpg)
