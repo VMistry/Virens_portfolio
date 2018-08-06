@@ -94,7 +94,6 @@ h1{
 .profileImg{
   /* Get the image */
   margin-top: 50px;
-  background-color: black;
   /* Full height */
   height: 500px;
   /* Center and scale the image nicely */
@@ -104,7 +103,8 @@ h1{
 
 .profileImg img{
   margin-top: 100px;
-  transform: rotate(90deg);
+  transform: translateX(-150px) rotate(90deg);
+
   height:300px;
   border-radius: 30px;
   padding:0px;
