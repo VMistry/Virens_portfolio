@@ -1,0 +1,329 @@
+/*------------- Tags -------------  */
+i{
+  font-size:29px;
+  padding: 0 0 0 1px;
+  margin-top: 0px;
+}
+
+p{
+  text-align:center;
+  margin:5px 0px 5px;
+  font-family: 'Anton', sans-serif;
+  color:white;
+  font-size: 20px;
+}
+
+h2{
+  color:white;
+  text-align: center;
+  font-size:400%;
+  margin-top:0px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+h1{
+  color:white;
+  text-align: center;
+  font-size:300%;
+  margin-top:10%;
+  font-family: 'Do Hyeon', sans-serif;
+}
+/*-------------  classes -------------  */
+/* navigation */
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+/* start section */
+.start{
+  /* Get the image */
+  background-image: url("Images/background3.jpg");
+  background-color: black;
+  /* Full height */
+  height: 600px;
+  /* Center and scale the image nicely */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.start p{
+  text-align: center;
+  font-size: 300%;
+  color: white;
+  margin-top: 11%;
+}
+
+.top{
+  /* Full height */
+  height: 200px;
+}
+
+.startSection{
+  /* Full height */
+  height: 200px;
+  border-radius: 30px;
+  background-color: rgba(50, 50, 50, .7);
+}
+
+
+/* About me */
+.portStart{
+  /* Get the image */
+  background-image: url("Images/Blackwood.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Full height */
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.name{
+  font-size:100%;
+  color:red;
+}
+
+.profileImg{
+  /* Get the image */
+  margin-top: 50px;
+  /* Full height */
+  height: 500px;
+  /* Center and scale the image nicely */
+  border-radius: 30px;
+  padding:0px;
+}
+
+.profileImg img{
+  margin-top: 100px;
+  transform: translateX(-150px) rotate(90deg);
+
+  height:300px;
+  border-radius: 30px;
+  padding:0px;
+
+
+}
+
+.profileInfo{
+  /* Get the image */
+  margin-top: 50px;
+  background-color: rgba(50, 50, 50, .7);
+  /* Full height */
+  height: 500px;
+  border-radius: 30px;
+  border:solid 2px lightgrey;
+  margin-left: 1%;
+
+}
+
+/* Porfolio */
+.portStart2{
+  /* Get the image */
+  background-image: url("Images/background_image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Full height */
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.portDisplay{
+  /* Get the image */
+  background-color: rgba(50, 50, 50, .7);
+  /* Full height */
+  height: 200px;
+  border-radius: 30px;
+  border:solid 2px lightgrey;
+  margin:20px 1% 0px;
+
+}
+
+.littleHeader{
+  background-color:rgba(50,50,50,.5);
+  margin-top:30px;
+  border-radius:10px;
+}
+
+.littleHeader h2{
+  style="text-align:left;
+  margin:5px 3% 0px;"
+}
+
+.portSect p{
+  height:40px;
+  background-color:grey;
+  color:white;
+  border-top-left-radius:30px;
+  border-top-right-radius:30px;
+  margin: 0px;
+  padding-top:1px;
+  font-size:30px;
+}
+
+.portSect img{
+  height:115px;
+  background-color:black;
+  color:blue;
+  margin: 0px;
+  padding-top:10px;
+}
+
+.portSectPT{
+  height:40px;
+  background-color:grey;
+  color:black;
+  border-bottom-left-radius:30px;
+  border-bottom-right-radius:30px;
+  margin: 0px;
+  padding-top:10px;
+  text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: black;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content p{
+  border-radius: 0px;
+  background-color: inherit;
+  color:white;
+  font-size: 18px;
+}
+
+.modal-content h2{
+  border-radius: 0px;
+  background-color: inherit;
+  border-bottom:solid 1px grey;
+  color:white;
+  height:100%;
+}
+
+.modal-content div{
+  border-radius: 0px;
+  background-color:grey;
+  color:white;
+  height:400px;
+  width: 80%;
+  margin-left:10%;
+}
+
+/* Tech skills */
+
+.TSInfoContainer{
+  /* Get the image */
+  margin-top: 50px;
+  background-color: rgba(50, 50, 50, .7);
+  /* Full height */
+  height: 500px;
+  border-radius: 30px;
+  border:solid 2px lightgrey;
+
+}
+
+.portStart3{
+  /* Get the image */
+  background-image: url("Images/Blackwood.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Full height */
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.skillLine{
+  /* Get the image */
+  background-color: rgba(50, 50, 50, .7);
+  /* Full height */
+  height: 90px;
+  border-radius: 10px;
+  border:solid 2px lightgrey;
+  margin-top:5px;
+
+}
+
+.skillSection{
+  height:40px;
+  background-color:grey;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+}
+
+.skillSection h3{
+  margin:0px 0px 0px 10px;
+  color:white;
+  padding-top:5px;
+}
+
+.skillList li{
+  color:white;
+  background-color:grey;
+  display: inline-block;
+  padding:0px 1%;
+  margin:1.5% 0% 0px 1%;
+  border-radius:4px;
+}
+/* Contact */
+.portEnd{
+  /* Get the image */
+  background-color: black;
+  /* Full height */
+  height: 175px;
+  border-top:solid 5px lightgrey;
+  text-align: center;
+}
+.portEnd i{
+  font-size: 75px;
+  color:white;
+  margin-left:10px;
+}
+
+.portEnd h3{
+  font-size: 45px;
+  color:white;
+
+}
